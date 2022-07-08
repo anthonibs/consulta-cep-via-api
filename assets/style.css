@@ -1,0 +1,66 @@
+body.bg-image {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f5f5f5;
+    background-image: url(cep-point.svg);
+    background-position:  top left;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-container {
+    margin-top: 3.5rem;
+}
+
+h1 {
+    display: flex;
+    gap: .8rem;
+    align-items: center;
+}
+
+.bi.bi-search {
+    color: #11683f;
+    font-size: 3.5rem;
+}
+
+.form-wapper {
+    margin-top: 1.625rem;
+}
+
+form {
+    display: flex;
+    row-gap: 1rem;
+}
+
+small {
+    font-size: .825rem;
+}
+
+.form-error.ativo {
+    color: rgb(221, 21, 21);
+    font-weight: 500;
+}
+
+footer {
+    display: flex;
+    gap: .325rem;
+    justify-content: center;
+    margin: 5rem auto;
+}
+
+footer p {
+    font-size: .9rem;
+    color: #4e4e4e;
+}
+
+footer a {
+    text-decoration: none;
+    color: #4e4e4e;
+    font-weight: 600;
+}
+
+footer a:hover {
+    color: #058d27;
+}
